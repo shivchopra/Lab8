@@ -98,6 +98,6 @@ public class CustomList extends ArrayAdapter<City> {
      *      The number of cities in the list.
      */
     public int countCities() {
-        return 0;
+        return cities.size();
     }
 }
