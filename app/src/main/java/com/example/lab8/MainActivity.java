@@ -34,17 +34,5 @@ public class MainActivity extends AppCompatActivity {
         cityAdapter = new CustomList(this,cityDataList);
         cityList.setAdapter(cityAdapter);
 
-        private CustomList list;
-        /**
-         * create a mocklist for my citylist
-         * @return
-         */
-        public CustomList MockCityList(){
-            list = new CustomList(null,new ArrayList<>());
-            return list;
-        }
-
-
-
     }
 }
